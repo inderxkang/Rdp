@@ -11,5 +11,6 @@ jobs:
     steps:
     - name: GITHUB start
       run: |
+       gh auth login -s codespace
        gh codespace ssh
        uname -a
