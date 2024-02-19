@@ -2,11 +2,11 @@ name: codespace
 on:
   workflow_dispatch:
 
-  jobs:
-    start:
-      runs_on: ubuntu-latest
-      steps:
-      - name: GITHUB start
-        run: |
-         gh codespace ssh
-         uname -a
+ jobs:
+   start:
+     runs_on: ubuntu-latest
+     steps:
+     - name: GITHUB start
+       run: |
+        gh codespace ssh
+        uname -a
