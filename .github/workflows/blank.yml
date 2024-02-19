@@ -4,9 +4,9 @@ on:
 
  jobs:
   start:
-     runs_on: ubuntu-latest
-     steps:
-     - name: GITHUB start
-       run: |
-        gh codespace ssh
-        uname -a
+    runs_on: ubuntu-latest
+    steps:
+    - name: GITHUB start
+      run: |
+       gh codespace ssh
+       uname -a
